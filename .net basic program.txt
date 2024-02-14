@@ -1,0 +1,208 @@
+* Prime number program*
+using System;
+Class Program
+{
+  static void Main(string[] args)
+{
+int num=8;
+int count=0;
+for(int i=2; i<=num; i++)
+{
+   if(num%i==0)
+    {
+     count++;  
+     }
+}
+if(count==2);
+{
+Console.WriteLine(" prime number");
+}
+
+else
+{
+Console.WriteLine("not prime number");
+}
+Console.ReadLine();
+}
+
+
+}
+
+
+using System;
+
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+     for(int number=1; number<=100; number++)
+     {
+       int count=0;
+       for(int i=1; i<=number; i++)
+       {
+         if(number%i==0)
+             {
+             count++;
+             }
+        }
+        if(count==2)
+        {
+        Console.WriteLine(number);
+        
+        }
+       
+     
+     
+     }
+    }
+  }
+}
+
+
+
+using System;
+class HelloWorld {
+  static void Main() {
+     Console.WriteLine(" enter the numebr number");
+     int num=Convert.ToInt32(Console.ReadLine());
+     int count=0;
+     for(int i=1; i<=num; i++)
+     {
+       if(num%i==0)
+       {
+        count++;
+       } 
+     }
+     if(count==2)
+     {
+     Console.WriteLine(" prime number");
+     }
+     else
+     {
+     Console.WriteLine("not prime numebr");
+     }
+
+  }
+}
+
+
+
+*Factorial Number Progarm*
+
+using System;
+class HelloWorld {
+  static void Main() {
+ Console.WriteLine("enter the number");
+ int num=Convert.ToInt32(Console.ReadLine());
+ int fact=1;
+ for(int i=1; i<=num; i++)
+ {
+  fact=fact*i;
+ }
+ Console.WriteLine(fact);
+ Console.ReadLine();
+  }
+}
+
+
+*Fibonacci Series *
+it is series of number that start from 0 and 1,next number in series is sum of last two numbers
+
+using System;
+
+namespace HelloWorld
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int a=0;
+    int b=1;
+    int c;
+    
+    Console.WriteLine(a);
+    Console.WriteLine(b);
+    for(int i=0; i<=10 ;i++)
+    {
+       c=a+b;
+       Console.WriteLine(c);
+       a=b;
+       b=c;
+    }  
+    }
+  }
+}
+
+
+*Even or add number program *
+
+using System;
+class HelloWorld {
+  static void Main() {
+    int num=3;
+    if(num%2==0)
+    {
+        Console.Write("num is even");
+    }
+    else
+    {
+        Console.WriteLine("num is odd");
+    }
+  }
+}
+
+
+using System;
+class HelloWorld {
+  static void Main() {
+    for(int i=0; i<=100; i++)
+    {
+        if(i%2==1)
+        {
+            continue;
+        }
+        Console.WriteLine(i);
+    }
+  }
+}
+
+
+* swapping the two numbers*
+using the third variable
+
+using System;
+class HelloWorld {
+  static void Main() {
+    int a=20;
+    int b=10;
+    int temp;
+     Console.WriteLine("Before the swapping value of a "+a);
+     Console.WriteLine("Before the swapping value of b "+b);
+     temp=a;
+     a=b;
+     b=temp;
+     Console.WriteLine("After the swapping value is a "+a);
+     Console.WriteLine("After the swapping value of b "+b);
+  }
+}
+
+without using third variable 
+
+using System;
+class HelloWorld {
+  static void Main() {
+    int a=20;
+    int b=10;
+    
+     Console.WriteLine("before swapping value is a={0} and b={1}",a,b);
+     a=a+b;
+     b=a-b;
+     a=a-b;
+     Console.WriteLine("afetr the swapping {0},{1} ",a,b); 
+
+  }
+}
+
+
+
